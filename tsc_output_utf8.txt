@@ -1,0 +1,18 @@
+﻿src/components/CertificateModal.tsx(287,83): error TS2503: Cannot find namespace 'JSX'.
+src/components/TeacherAttendanceModal.tsx(54,9): error TS6133: 'handleNotesChange' is declared but its value is never read.
+src/contexts/AppContext.tsx(839,9): error TS2353: Object literal may only specify known properties, and 'studentName' does not exist in type 'Omit<Payment, "id" | "createdAt" | "receiptNumber">'.
+src/contexts/AppContext.tsx(851,22): error TS2554: Expected 0 arguments, but got 1.
+src/contexts/AppContext.tsx(877,13): error TS2353: Object literal may only specify known properties, and 'studentName' does not exist in type 'Partial<Payment>'.
+src/contexts/AppContext.tsx(884,13): error TS2353: Object literal may only specify known properties, and 'studentName' does not exist in type 'Omit<Payment, "id" | "createdAt" | "receiptNumber">'.
+src/pages/Events.tsx(3,26): error TS6133: 'formatDate' is declared but its value is never read.
+src/pages/Expenses.tsx(4,51): error TS6133: 'CheckCircle2' is declared but its value is never read.
+src/pages/Expenses.tsx(4,65): error TS6133: 'FileText' is declared but its value is never read.
+src/pages/Expenses.tsx(103,24): error TS2339: Property 'invoiceNumber' does not exist on type 'Expense'.
+src/pages/Income.tsx(225,18): error TS18048: 'receiptPayment.remainingAmount' is possibly 'undefined'.
+src/pages/Income.tsx(228,86): error TS2345: Argument of type 'number | undefined' is not assignable to parameter of type 'number'.
+  Type 'undefined' is not assignable to type 'number'.
+src/pages/Installments.tsx(4,42): error TS6133: 'Printer' is declared but its value is never read.
+src/pages/Salaries.tsx(4,51): error TS6133: 'Download' is declared but its value is never read.
+src/pages/Salaries.tsx(4,61): error TS6133: 'FileText' is declared but its value is never read.
+src/pages/Salaries.tsx(4,109): error TS6133: 'Briefcase' is declared but its value is never read.
+src/pages/Salaries.tsx(8,1): error TS6192: All imports in import declaration are unused.
